@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/records/OMO/semestralka/smarthome_project_omo/Smarter_than_you_Home_xD</OriginalElement>
+  <nodes>
+    <node x="859.0" y="103.0">Entities.Entity</node>
+    <node x="838.0" y="1085.0">Config</node>
+    <node x="540.0" y="641.0">Entities.Classes.Electronics.TV</node>
+    <node x="0.0" y="1085.0">Entities.Classes.House.Weather</node>
+    <node x="612.5" y="275.0">Entities.Classes.Things</node>
+    <node x="894.0" y="641.0">Entities.Classes.Electronics.Play_Station</node>
+    <node x="226.0" y="742.0">Entities.Classes.Electronics.Utils.Consumption</node>
+    <node x="353.99999999999994" y="641.0">Entities.Classes.Electronics.Washing_Machine</node>
+    <node x="1030.5" y="264.0">Entities.Classes.Creatures.Animal</node>
+    <node x="717.0" y="641.0">Entities.Classes.Electronics.Fridge</node>
+    <node x="177.0" y="641.0">Entities.Classes.Electronics.Microwave</node>
+    <node x="1036.0" y="742.0">Logger.Event</node>
+    <node x="848.0" y="742.0">Entities.Classes.House.Room</node>
+    <node x="533.0" y="1085.0">Utils.Constants</node>
+    <node x="821.5" y="253.0">Entities.Classes.Creatures.Person</node>
+    <node x="1248.0" y="641.0">Entities.Classes.Electronics.Vacuum_Cleaner</node>
+    <node x="0.0" y="742.0">Controller.Controller</node>
+    <node x="1071.0" y="641.0">Entities.Classes.Electronics.Oven</node>
+    <node x="318.0" y="1085.0">Logger.Logger</node>
+    <node x="1210.0" y="742.0">Entities.Classes.Electronics.Utils.State</node>
+    <node x="694.0" y="1085.0">Entities.Classes.Electronics.Utils.Manual</node>
+    <node x="611.0" y="469.0">Entities.Classes.Electronics.Device</node>
+    <node x="549.0" y="742.0">Entities.Classes.House.Utils.Utils</node>
+    <node x="956.25" y="0.0">Utils.Lap</node>
+    <node x="993.0" y="81.0">Entities.Classes.Sensor.Sensor</node>
+    <node x="186.0" y="1085.0">Entities.Classes.House.Utils.State</node>
+    <node x="0.0" y="641.0">Entities.Classes.Electronics.Computer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Entities.Classes.Electronics.TV" target="Entities.Classes.Electronics.Device" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="618.5" y="616.0" />
+      <point x="707.0" y="616.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="Entities.Entity" target="Utils.Lap" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="916.0" y="56.0" />
+      <point x="993.75" y="56.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Entities.Classes.Things" target="Entities.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-61.0" />
+      <point x="707.0" y="228.0" />
+      <point x="916.0" y="228.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="Entities.Classes.Electronics.Oven" target="Entities.Classes.Electronics.Device" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="1149.5" y="616.0" />
+      <point x="707.0" y="616.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="Entities.Classes.Electronics.Vacuum_Cleaner" target="Entities.Classes.Electronics.Device" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="1326.5" y="616.0" />
+      <point x="707.0" y="616.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="Entities.Classes.Electronics.Washing_Machine" target="Entities.Classes.Electronics.Device" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="436.99999999999994" y="616.0" />
+      <point x="707.0" y="616.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="Entities.Classes.Electronics.Microwave" target="Entities.Classes.Electronics.Device" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="255.5" y="616.0" />
+      <point x="707.0" y="616.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="Entities.Classes.Electronics.Device" target="Entities.Classes.Things" relationship="GENERALIZATION">
+      <point x="0.0" y="-61.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="Entities.Classes.Electronics.Computer" target="Entities.Classes.Electronics.Device" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="78.5" y="616.0" />
+      <point x="707.0" y="616.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="Entities.Classes.Electronics.Play_Station" target="Entities.Classes.Electronics.Device" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="972.5" y="616.0" />
+      <point x="707.0" y="616.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="Entities.Classes.Sensor.Sensor" target="Utils.Lap" relationship="REALIZATION">
+      <point x="0.0" y="-61.0" />
+      <point x="1071.5" y="56.0" />
+      <point x="993.75" y="56.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Entities.Classes.Creatures.Animal" target="Entities.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-72.0" />
+      <point x="1116.5" y="228.0" />
+      <point x="916.0" y="228.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="Entities.Classes.Creatures.Person" target="Entities.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-83.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="Entities.Classes.Electronics.Fridge" target="Entities.Classes.Electronics.Device" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="795.5" y="616.0" />
+      <point x="707.0" y="616.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5551867219917013" showDependencies="false" x="702.5" y="592.5" />
+  <SelectedNodes>
+    <node>Entities.Classes.Sensor.Sensor</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
