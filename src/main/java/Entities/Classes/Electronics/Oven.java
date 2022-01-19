@@ -1,9 +1,9 @@
-package Entities.Classes.Electronics;
+package entities.classes.electronics;
 
-import Controller.Controller;
-import Entities.Classes.Electronics.Utils.Consumption;
-import Entities.Classes.Electronics.Utils.State;
-import Entities.Classes.House.Room;
+import controller.Controller;
+import entities.classes.electronics.utils.Consumption;
+import entities.classes.electronics.utils.State;
+import entities.classes.house.Room;
 
 /**
  * @author Mukan Atazhanov

@@ -1,25 +1,26 @@
-package Controller;
+package controller;
 
-import Entities.Classes.Creatures.Animal;
-import Entities.Classes.Creatures.Person;
-import Entities.Classes.Electronics.Device;
-import Entities.Classes.Things;
-import Entities.Classes.House.Room;
-import Entities.Classes.House.Utils.Utils;
-import Entities.Classes.House.Weather;
-import Entities.Classes.Sensor.Sensor;
-import Logger.Logger;
-import Utils.Lap;
+import entities.classes.creatures.Animal;
+import entities.classes.creatures.Person;
+import entities.classes.electronics.Device;
+import entities.classes.Things;
+import entities.classes.house.Room;
+import entities.classes.house.utils.Utils;
+import entities.classes.house.Weather;
+import entities.classes.sensor.Sensor;
+import logger.Logger;
+import utils.Lap;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 /**
- * @author Mukan Atazhanov
- * Created on 13-Jan-22
+ * The type Controller.
+ * Singleton design pattern
+ *
+ * @author Mukan Atazhanov Created on 13-Jan-22
  */
-
 public class Controller {
     private static final Controller instance = new Controller();
 
@@ -42,6 +43,11 @@ public class Controller {
         return instance;
     }
 
+    /**
+     * Getter methods of house controller
+     *
+     * @return rooms, people, pets, devices, tools
+     */
     public List<Room> getRooms() {
         return rooms;
     }
@@ -58,6 +64,11 @@ public class Controller {
         return tools;
     }
 
+    /**
+     * Add room to rooms list
+     *
+     * @param room
+     */
     public void addRoom(Room room) {
         rooms.add(room);
         configLog.writeToLog("New room {" + room.getName() + "} on floor {" + room.getFloor() +"}");
@@ -66,6 +77,12 @@ public class Controller {
     public void addRooms(List<Room> rooms) {
         rooms.forEach(this::addRoom);
     }
+
+    /**
+     * Add person to people list
+     *
+     * @param person
+     */
     public void addPerson(Person person) {
         people.add(person);
         entities.add(person);
@@ -74,6 +91,12 @@ public class Controller {
     public void addPeople(List<Person> people) {
         people.forEach(this::addPerson);
     }
+
+    /**
+     * Add pets to animal list
+     *
+     * @param pet
+     */
     public void addPet(Animal pet) {
         pets.add(pet);
         entities.add(pet);
@@ -82,6 +105,12 @@ public class Controller {
     public void addPets(List<Animal> pets) {
         pets.forEach(this::addPet);
     }
+
+    /**
+     * Add things/tools as sport equip to thing list
+     *
+     * @param tool
+     */
     public void addThing(Things tool) {
         tools.add(tool);
         configLog.writeToLog("New electronic {" + tool.getName() + "} to room {" + tool.getRoom().getName() + "}");
@@ -89,6 +118,12 @@ public class Controller {
     public void addThings(List<Things> tools) {
         tools.forEach(this::addThing);
     }
+
+    /**
+     * Add device to device list
+     *
+     * @param device
+     */
     public void addDevice(Device device) {
         devices.add(device);
         entities.add(device);
@@ -97,6 +132,12 @@ public class Controller {
     public void addDevices(List<Device> devices) {
         devices.forEach(this::addDevice);
     }
+
+    /**
+     * Add sensor to sensor list
+     *
+     * @param sensor
+     */
     public void addSensor(Sensor sensor) {
         sensors.add(sensor);
         configLog.writeToLog("New sensor in room {" + sensor.getRoom().getName() + "}");

@@ -3,118 +3,145 @@
   <ID>JAVA</ID>
   <OriginalElement>D:/records/OMO/semestralka/smarthome_project_omo/Smarter_than_you_Home_xD</OriginalElement>
   <nodes>
-    <node x="859.0" y="103.0">Entities.Entity</node>
-    <node x="838.0" y="1085.0">Config</node>
-    <node x="540.0" y="641.0">Entities.Classes.Electronics.TV</node>
-    <node x="0.0" y="1085.0">Entities.Classes.House.Weather</node>
-    <node x="612.5" y="275.0">Entities.Classes.Things</node>
-    <node x="894.0" y="641.0">Entities.Classes.Electronics.Play_Station</node>
+    <node x="202.0" y="1463.0">Entities.Classes.Electronics.TV</node>
+    <node x="0.0" y="1318.0">Entities.Classes.House.Weather</node>
+    <node x="986.25" y="81.0">entities.classes.sensor.Sensor</node>
+    <node x="1450.0" y="0.0">controller.Controller</node>
+    <node x="372.0" y="1318.0">entities.classes.house.utils.State</node>
+    <node x="531.0" y="641.0">entities.classes.electronics.Microwave</node>
+    <node x="404.0" y="1463.0">Entities.Classes.Electronics.Play_Station</node>
     <node x="226.0" y="742.0">Entities.Classes.Electronics.Utils.Consumption</node>
-    <node x="353.99999999999994" y="641.0">Entities.Classes.Electronics.Washing_Machine</node>
-    <node x="1030.5" y="264.0">Entities.Classes.Creatures.Animal</node>
-    <node x="717.0" y="641.0">Entities.Classes.Electronics.Fridge</node>
-    <node x="177.0" y="641.0">Entities.Classes.Electronics.Microwave</node>
-    <node x="1036.0" y="742.0">Logger.Event</node>
-    <node x="848.0" y="742.0">Entities.Classes.House.Room</node>
-    <node x="533.0" y="1085.0">Utils.Constants</node>
-    <node x="821.5" y="253.0">Entities.Classes.Creatures.Person</node>
-    <node x="1248.0" y="641.0">Entities.Classes.Electronics.Vacuum_Cleaner</node>
+    <node x="639.0" y="1085.0">logger.Event</node>
+    <node x="1212.0" y="1463.0">utils.Constants</node>
+    <node x="186.0" y="1318.0">entities.classes.house.Weather</node>
+    <node x="422.0" y="1085.0">Entities.Classes.Creatures.Animal</node>
+    <node x="1436.0" y="1318.0">Entities.Classes.Electronics.Microwave</node>
+    <node x="1373.0" y="1463.0">Utils.Constants</node>
+    <node x="188.0" y="1085.0">Entities.Classes.Creatures.Person</node>
+    <node x="1071.0" y="641.0">entities.classes.electronics.Oven</node>
+    <node x="795.0" y="1318.0">Logger.Logger</node>
+    <node x="708.0" y="641.0">entities.classes.electronics.Washing_Machine</node>
+    <node x="1010.0" y="1318.0">logger.Logger</node>
+    <node x="852.25" y="103.0">entities.Entity</node>
+    <node x="144.0" y="1564.0">Entities.Classes.Electronics.Utils.Manual</node>
+    <node x="987.0" y="1085.0">Entities.Classes.Electronics.Device</node>
+    <node x="504.0" y="1318.0">Entities.Classes.House.Utils.State</node>
+    <node x="0.0" y="1463.0">Entities.Classes.Electronics.Computer</node>
+    <node x="894.0" y="641.0">entities.classes.electronics.Vacuum_Cleaner</node>
+    <node x="636.0" y="1318.0">Entities.Entity</node>
+    <node x="288.0" y="1564.0">Config</node>
+    <node x="949.5" y="0.0">utils.Lap</node>
+    <node x="1224.0" y="1085.0">Entities.Classes.Things</node>
+    <node x="1458.0" y="1085.0">entities.classes.electronics.utils.State</node>
+    <node x="604.25" y="469.0">entities.classes.electronics.Device</node>
+    <node x="1225.0" y="1318.0">Entities.Classes.Electronics.Washing_Machine</node>
+    <node x="354.0" y="641.0">entities.classes.electronics.Fridge</node>
+    <node x="606.0" y="1463.0">Entities.Classes.Electronics.Fridge</node>
+    <node x="0.0" y="1564.0">entities.classes.electronics.utils.Manual</node>
+    <node x="1023.75" y="264.0">entities.classes.creatures.Animal</node>
+    <node x="813.0" y="1085.0">Logger.Event</node>
+    <node x="1248.0" y="641.0">entities.classes.electronics.Computer</node>
+    <node x="814.75" y="253.0">entities.classes.creatures.Person</node>
+    <node x="0.0" y="1085.0">Entities.Classes.House.Room</node>
+    <node x="872.0" y="742.0">entities.classes.house.utils.Utils</node>
+    <node x="605.75" y="275.0">entities.classes.Things</node>
+    <node x="808.0" y="1463.0">Entities.Classes.Electronics.Vacuum_Cleaner</node>
     <node x="0.0" y="742.0">Controller.Controller</node>
-    <node x="1071.0" y="641.0">Entities.Classes.Electronics.Oven</node>
-    <node x="318.0" y="1085.0">Logger.Logger</node>
-    <node x="1210.0" y="742.0">Entities.Classes.Electronics.Utils.State</node>
-    <node x="694.0" y="1085.0">Entities.Classes.Electronics.Utils.Manual</node>
-    <node x="611.0" y="469.0">Entities.Classes.Electronics.Device</node>
-    <node x="549.0" y="742.0">Entities.Classes.House.Utils.Utils</node>
-    <node x="956.25" y="0.0">Utils.Lap</node>
-    <node x="993.0" y="81.0">Entities.Classes.Sensor.Sensor</node>
-    <node x="186.0" y="1085.0">Entities.Classes.House.Utils.State</node>
-    <node x="0.0" y="641.0">Entities.Classes.Electronics.Computer</node>
+    <node x="1010.0" y="1463.0">Entities.Classes.Electronics.Oven</node>
+    <node x="1601.0" y="1085.0">Entities.Classes.Electronics.Utils.State</node>
+    <node x="177.0" y="641.0">entities.classes.electronics.Play_Station</node>
+    <node x="549.0" y="742.0">entities.classes.electronics.utils.Consumption</node>
+    <node x="1171.0" y="742.0">Entities.Classes.House.Utils.Utils</node>
+    <node x="1534.0" y="1463.0">Config2</node>
+    <node x="428.0" y="1564.0">Utils.Lap</node>
+    <node x="1462.0" y="398.2400548696845">Entities.Classes.Sensor.Sensor</node>
+    <node x="0.0" y="641.0">entities.classes.electronics.TV</node>
+    <node x="1470.0" y="742.0">entities.classes.house.Room</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="Entities.Classes.Electronics.TV" target="Entities.Classes.Electronics.Device" relationship="GENERALIZATION">
-      <point x="0.0" y="-28.0" />
-      <point x="618.5" y="616.0" />
-      <point x="707.0" y="616.0" />
-      <point x="0.0" y="61.0" />
-    </edge>
-    <edge source="Entities.Entity" target="Utils.Lap" relationship="REALIZATION">
-      <point x="0.0" y="-39.0" />
-      <point x="916.0" y="56.0" />
-      <point x="993.75" y="56.0" />
-      <point x="0.0" y="15.5" />
-    </edge>
-    <edge source="Entities.Classes.Things" target="Entities.Entity" relationship="GENERALIZATION">
+    <edge source="entities.classes.Things" target="entities.Entity" relationship="GENERALIZATION">
       <point x="0.0" y="-61.0" />
-      <point x="707.0" y="228.0" />
-      <point x="916.0" y="228.0" />
+      <point x="700.25" y="228.0" />
+      <point x="909.25" y="228.0" />
       <point x="0.0" y="39.0" />
     </edge>
-    <edge source="Entities.Classes.Electronics.Oven" target="Entities.Classes.Electronics.Device" relationship="GENERALIZATION">
+    <edge source="entities.classes.electronics.Device" target="entities.classes.Things" relationship="GENERALIZATION">
+      <point x="0.0" y="-61.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="entities.Entity" target="utils.Lap" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="909.25" y="56.0" />
+      <point x="987.0" y="56.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="entities.classes.creatures.Animal" target="entities.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-72.0" />
+      <point x="1109.75" y="228.0" />
+      <point x="909.25" y="228.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="entities.classes.electronics.Microwave" target="entities.classes.electronics.Device" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="609.5" y="616.0" />
+      <point x="700.25" y="616.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="entities.classes.electronics.Washing_Machine" target="entities.classes.electronics.Device" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="791.0" y="616.0" />
+      <point x="700.25" y="616.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="entities.classes.electronics.Oven" target="entities.classes.electronics.Device" relationship="GENERALIZATION">
       <point x="0.0" y="-28.0" />
       <point x="1149.5" y="616.0" />
-      <point x="707.0" y="616.0" />
+      <point x="700.25" y="616.0" />
       <point x="0.0" y="61.0" />
     </edge>
-    <edge source="Entities.Classes.Electronics.Vacuum_Cleaner" target="Entities.Classes.Electronics.Device" relationship="GENERALIZATION">
-      <point x="0.0" y="-28.0" />
-      <point x="1326.5" y="616.0" />
-      <point x="707.0" y="616.0" />
-      <point x="0.0" y="61.0" />
-    </edge>
-    <edge source="Entities.Classes.Electronics.Washing_Machine" target="Entities.Classes.Electronics.Device" relationship="GENERALIZATION">
-      <point x="0.0" y="-28.0" />
-      <point x="436.99999999999994" y="616.0" />
-      <point x="707.0" y="616.0" />
-      <point x="0.0" y="61.0" />
-    </edge>
-    <edge source="Entities.Classes.Electronics.Microwave" target="Entities.Classes.Electronics.Device" relationship="GENERALIZATION">
-      <point x="0.0" y="-28.0" />
-      <point x="255.5" y="616.0" />
-      <point x="707.0" y="616.0" />
-      <point x="0.0" y="61.0" />
-    </edge>
-    <edge source="Entities.Classes.Electronics.Device" target="Entities.Classes.Things" relationship="GENERALIZATION">
-      <point x="0.0" y="-61.0" />
-      <point x="0.0" y="61.0" />
-    </edge>
-    <edge source="Entities.Classes.Electronics.Computer" target="Entities.Classes.Electronics.Device" relationship="GENERALIZATION">
-      <point x="0.0" y="-28.0" />
-      <point x="78.5" y="616.0" />
-      <point x="707.0" y="616.0" />
-      <point x="0.0" y="61.0" />
-    </edge>
-    <edge source="Entities.Classes.Electronics.Play_Station" target="Entities.Classes.Electronics.Device" relationship="GENERALIZATION">
-      <point x="0.0" y="-28.0" />
-      <point x="972.5" y="616.0" />
-      <point x="707.0" y="616.0" />
-      <point x="0.0" y="61.0" />
-    </edge>
-    <edge source="Entities.Classes.Sensor.Sensor" target="Utils.Lap" relationship="REALIZATION">
-      <point x="0.0" y="-61.0" />
-      <point x="1071.5" y="56.0" />
-      <point x="993.75" y="56.0" />
-      <point x="0.0" y="15.5" />
-    </edge>
-    <edge source="Entities.Classes.Creatures.Animal" target="Entities.Entity" relationship="GENERALIZATION">
-      <point x="0.0" y="-72.0" />
-      <point x="1116.5" y="228.0" />
-      <point x="916.0" y="228.0" />
-      <point x="0.0" y="39.0" />
-    </edge>
-    <edge source="Entities.Classes.Creatures.Person" target="Entities.Entity" relationship="GENERALIZATION">
+    <edge source="entities.classes.creatures.Person" target="entities.Entity" relationship="GENERALIZATION">
       <point x="0.0" y="-83.0" />
       <point x="0.0" y="39.0" />
     </edge>
-    <edge source="Entities.Classes.Electronics.Fridge" target="Entities.Classes.Electronics.Device" relationship="GENERALIZATION">
+    <edge source="entities.classes.electronics.Computer" target="entities.classes.electronics.Device" relationship="GENERALIZATION">
       <point x="0.0" y="-28.0" />
-      <point x="795.5" y="616.0" />
-      <point x="707.0" y="616.0" />
+      <point x="1326.5" y="616.0" />
+      <point x="700.25" y="616.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="entities.classes.electronics.TV" target="entities.classes.electronics.Device" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="78.5" y="616.0" />
+      <point x="700.25" y="616.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="entities.classes.sensor.Sensor" target="utils.Lap" relationship="REALIZATION">
+      <point x="0.0" y="-61.0" />
+      <point x="1064.75" y="56.0" />
+      <point x="987.0" y="56.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="entities.classes.electronics.Play_Station" target="entities.classes.electronics.Device" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="255.5" y="616.0" />
+      <point x="700.25" y="616.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="entities.classes.electronics.Vacuum_Cleaner" target="entities.classes.electronics.Device" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="972.5" y="616.0" />
+      <point x="700.25" y="616.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="entities.classes.electronics.Fridge" target="entities.classes.electronics.Device" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="432.5" y="616.0" />
+      <point x="700.25" y="616.0" />
       <point x="0.0" y="61.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="0.5551867219917013" showDependencies="false" x="702.5" y="592.5" />
+  <settings layout="Hierarchic" zoom="0.5642414860681115" showDependencies="false" x="704.7272785989776" y="530.8312757201645" />
   <SelectedNodes>
     <node>Entities.Classes.Sensor.Sensor</node>
   </SelectedNodes>

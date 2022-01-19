@@ -1,12 +1,12 @@
-package Entities.Classes.Electronics;
+package entities.classes.electronics;
 
-import Entities.Classes.Creatures.Person;
-import Entities.Classes.Electronics.Utils.Consumption;
-import Entities.Classes.Electronics.Utils.Manual;
-import Entities.Classes.Electronics.Utils.State;
-import Entities.Classes.House.Room;
-import Entities.Classes.House.Utils.Utils;
-import Entities.Classes.Things;
+import entities.classes.creatures.Person;
+import entities.classes.electronics.utils.Consumption;
+import entities.classes.electronics.utils.Manual;
+import entities.classes.electronics.utils.State;
+import entities.classes.house.Room;
+import entities.classes.house.utils.Utils;
+import entities.classes.Things;
 
 /**
  * @author Mukan Atazhanov

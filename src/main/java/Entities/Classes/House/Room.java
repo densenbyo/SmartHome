@@ -1,7 +1,7 @@
-package Entities.Classes.House;
+package entities.classes.house;
 
-import Entities.Classes.House.Utils.State;
-import Entities.Classes.House.Utils.Utils;
+import entities.classes.house.utils.State;
+import entities.classes.house.utils.Utils;
 
 /**
  * @author Mukan Atazhanov

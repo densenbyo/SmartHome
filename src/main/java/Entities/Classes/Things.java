@@ -1,19 +1,20 @@
-package Entities.Classes;
+package entities.classes;
 
-import Controller.Controller;
-import Entities.Classes.Creatures.Person;
-import Entities.Classes.Electronics.Utils.State;
-import Entities.Classes.House.Room;
-import Entities.Entity;
+import controller.Controller;
+import entities.classes.creatures.Person;
+import entities.classes.electronics.utils.State;
+import entities.classes.house.Room;
+import entities.Entity;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Mukan Atazhanov
- * Created on 13-Jan-22
+ * The type Things.
+ * By using state design pattern and observable design pattern
+ *
+ * @author Mukan Atazhanov Created on 13-Jan-22
  */
-
 public class Things extends Entity {
     public int initHP;
 
@@ -43,19 +44,30 @@ public class Things extends Entity {
         return state;
     }
 
+    /**
+     * Boolean method of repair function
+     * if device is fixed return true, otherwise false
+     *
+     * @return boolean
+     */
     public boolean repair(){
         if(getState() == State.BROKEN){
             initHP = 100;
             setState(State.IDLE);
-            //todo notice
             announce("fixing");
+            return true;
         }
         return false;
     }
 
+    /**
+     * Boolean method of breakdown function
+     * if device is broken return true, otherwise false
+     *
+     * @return boolean
+     */
     public boolean breakdown(){
         setState(State.BROKEN);
-        //todo notice
         announce("I AM DONE");
         return true;
     }
@@ -64,6 +76,13 @@ public class Things extends Entity {
         people.add(observer);
     }
 
+    /**
+     * Boolean method of usability function
+     * after using device HP of device going to decrease by 1
+     * after HP becomes 0, state of device going to be set as broken
+     *
+     * @return boolean
+     */
     public boolean Usable(){
         if (getState() == State.IDLE) {
             setState(State.ON);
@@ -71,7 +90,6 @@ public class Things extends Entity {
             if (initHP < 1) {
                 setState(State.BROKEN);
                 System.out.println(name + " broke");
-                //todo notice
                 announce("I AM DONE, but after use");
             }
             return true;
@@ -80,6 +98,11 @@ public class Things extends Entity {
         }
     }
 
+    /**
+     * Method announce any change of things
+     *
+     * @param info
+     */
     public void announce(String info){
         if (!people.isEmpty()) {
             StringBuilder strObsList = new StringBuilder();
@@ -88,13 +111,16 @@ public class Things extends Entity {
                 strObsList.append(observer.getName()).append(", ");
             }
             strObsList = new StringBuilder(strObsList.substring(0, strObsList.length() - 2));
-            System.out.println(name + " broke down. Notify sent to: " + strObsList);
             houseController.eventLog.writeToLog(name + " broke down. Notify sent to: " + strObsList);
         } else {
             System.out.println(name + " has no observers.");
         }
     }
 
+    /**
+     * New lap method, creates new lap
+     * In new lap each thing will be set to idle state
+     */
     @Override
     public void newLap(){
         setState(State.IDLE);

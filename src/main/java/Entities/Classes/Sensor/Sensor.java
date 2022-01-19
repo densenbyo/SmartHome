@@ -1,12 +1,10 @@
-package Entities.Classes.Sensor;
+package entities.classes.sensor;
 
-import Controller.Controller;
-import Entities.Classes.House.Room;
-import Entities.Classes.House.Utils.Utils;
-import Entities.Classes.House.Weather;
-import Utils.Lap;
-
-import java.awt.*;
+import controller.Controller;
+import entities.classes.house.Room;
+import entities.classes.house.utils.Utils;
+import entities.classes.house.Weather;
+import utils.Lap;
 
 /**
  * @author Mukan Atazhanov

@@ -1,4 +1,4 @@
-package Entities.Classes.Electronics.Utils;
+package entities.classes.electronics.utils;
 
 /**
  * @author Mukan Atazhanov

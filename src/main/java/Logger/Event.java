@@ -1,9 +1,9 @@
-package Logger;
+package logger;
 
-import Entities.Classes.Creatures.Animal;
-import Entities.Classes.Creatures.Person;
-import Entities.Classes.Electronics.Device;
-import Entities.Classes.Things;
+import entities.classes.creatures.Animal;
+import entities.classes.creatures.Person;
+import entities.classes.electronics.Device;
+import entities.classes.Things;
 
 /**
  * @author Mukan Atazhanov

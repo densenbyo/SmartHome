@@ -1,6 +1,6 @@
-package Logger;
+package logger;
 
-import Controller.Controller;
+import controller.Controller;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;

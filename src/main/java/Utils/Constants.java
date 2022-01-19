@@ -1,4 +1,4 @@
-package Utils;
+package utils;
 
 /**
  * @author Mukan Atazhanov
@@ -6,5 +6,4 @@ package Utils;
  */
 
 public class Constants {
-
 }

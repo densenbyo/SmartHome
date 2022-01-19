@@ -1,10 +1,11 @@
-package Entities.Classes.Electronics.Utils;
+package entities.classes.electronics.utils;
 
 /**
- * @author Mukan Atazhanov
- * Created on 13-Jan-22
+ * The enum State.
+ * State design pattern
+ *
+ * @author Mukan Atazhanov Created on 13-Jan-22
  */
-
 public enum State {
     ON,
     OFF,

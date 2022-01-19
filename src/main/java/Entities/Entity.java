@@ -1,7 +1,7 @@
-package Entities;
+package entities;
 
-import Entities.Classes.House.Room;
-import Utils.Lap;
+import entities.classes.house.Room;
+import utils.Lap;
 
 /**
  * @author Mukan Atazhanov

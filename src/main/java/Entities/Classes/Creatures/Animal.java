@@ -1,9 +1,9 @@
-package Entities.Classes.Creatures;
+package entities.classes.creatures;
 
-import Controller.Controller;
-import Entities.Classes.Things;
-import Entities.Classes.House.Room;
-import Entities.Entity;
+import controller.Controller;
+import entities.classes.Things;
+import entities.classes.house.Room;
+import entities.Entity;
 
 import java.util.ArrayList;
 import java.util.Collections;

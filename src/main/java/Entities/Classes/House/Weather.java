@@ -1,6 +1,6 @@
-package Entities.Classes.House;
+package entities.classes.house;
 
-import Entities.Classes.House.Utils.Utils;
+import entities.classes.house.utils.Utils;
 
 import java.util.Random;
 

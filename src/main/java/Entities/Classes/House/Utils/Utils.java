@@ -1,4 +1,4 @@
-package Entities.Classes.House.Utils;
+package entities.classes.house.utils;
 
 /**
  * @author Mukan Atazhanov

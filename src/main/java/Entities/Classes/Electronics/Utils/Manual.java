@@ -1,6 +1,6 @@
-package Entities.Classes.Electronics.Utils;
+package entities.classes.electronics.utils;
 
-import Entities.Classes.Things;
+import entities.classes.Things;
 
 /**
  * @author Mukan Atazhanov
